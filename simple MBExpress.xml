@@ -7,9 +7,9 @@
             <next>
               <block type="while_true" id="H6WPb]P]syQ`Q7u,EwKj">
                 <statement name="DO">
-                  <block type="varminus" id="EGACr69vlRpm~hFeId0T">
+                  <block type="equalsblock" id="_!MumV4DriJu9v`g1Dta">
                     <field name="1">incoming</field>
-                    <field name="2">radio.recieve()</field>
+                    <field name="2">radio.receive()</field>
                     <next>
                       <block type="ifequals" id="@RNQ-]zH;W}GemfZ4A5!">
                         <field name="this">incoming</field>

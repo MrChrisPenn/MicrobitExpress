@@ -2,7 +2,7 @@ from microbit import *
 import radio
 radio.on()
 while True:
-  incoming -= radio.recieve()
+  incoming=radio.receive()
   if incoming == "Forward":
     fwd()
   if incoming == "Back":
